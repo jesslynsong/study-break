@@ -15,6 +15,6 @@
     "@netlify/blobs": "11.1.9"
   },
   "devDependencies": {
-    "netlify-cli": "27.17.0"
+    "netlify-cli": "27.19.0"
   }
 }

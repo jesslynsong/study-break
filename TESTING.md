@@ -57,3 +57,13 @@ Successful deployment: 6af98a25889afe3924cb6d40. Application-shell cache: v6.
 Verified on the live website: the top-left host label reads NUS Students’ Computing Club and the main event heading reads Study Break. The browser title uses Study Break. The 390px phone view has no horizontal overflow. Static checks confirmed the corrected confirmation page and installable-app name, and the route module passed its syntax check. Only copy and branding styles changed; server data, storage keys and legacy backup schemas were preserved. No production records were added.
 
 Successful deployment: 6af9ad089035a30744aea22f. Application-shell cache: v7.
+
+## Public submission review — 15 November 2026
+
+The public repository was cloned with its eight existing commits. All 39 unique historical file blobs were checked for the known live organiser code and production verifier, common credential formats, private keys, local credential files and exported records. No matching production secrets or private event records were found. The author email in commit metadata was disclosed to the owner, who chose to keep it public.
+
+The judges’ README now documents the problem, review flow, isolated local demo, architecture, storage decision and limitations. The longer organiser procedures are in docs/OPERATIONS.md. A screenshot from the public event page is included; it contains no submitted names or organiser session.
+
+All 21 automated checks pass, including two tests that use a fake publishing CLI to verify the repository verifier is restored after both success and failure and the supplied code is redacted from output. These tests do not deploy or modify the live event.
+
+The dependency lockfile was reviewed after updating Netlify CLI to 27.19.0. No production advisories were reported; three development-tool advisories remain (two moderate, one low), as recorded in SECURITY.md. This review is not a penetration test.

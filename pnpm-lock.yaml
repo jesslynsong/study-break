@@ -13,8 +13,8 @@ importers:
         version: 11.1.9(supports-color@11.0.0)
     devDependencies:
       netlify-cli:
-        specifier: 27.17.0
-        version: 27.17.0(@types/node@26.6.6)(bare-buffer@3.7.1)(picomatch@4.0.7)(supports-color@11.0.0)
+        specifier: 27.19.0
+        version: 27.19.0(@types/node@26.6.6)(bare-buffer@3.7.1)(picomatch@4.0.7)(supports-color@11.0.0)
 
 packages:
 
@@ -2497,6 +2497,9 @@ packages:
   json-schema-traverse@1.0.0:
     resolution: {integrity: sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==}
 
+  jsonc-parser@3.3.1:
+    resolution: {integrity: sha512-HUgH65KyejrUFPvHFPbqOY0rsFip3Bo5wb4ngvdi1EpCYWUQDC5V+Y7mZws+DLkr4M//zQJoanu1SP+87Dv1oQ==}
+
   jsonpointer@5.0.1:
     resolution: {integrity: sha512-p/nXbhSEcu3pZRdkW1OfJhpsVtW1gd4Wa1fnQc9YLiTfAjn0312eMKimbdIQzuZl9aa9xUGaRlP9T/CJE/ditQ==}
     engines: {node: '>=0.10.0'}
@@ -2742,8 +2745,8 @@ packages:
     resolution: {integrity: sha512-NMPBRMJgiQHjbd8phG3Vebdx4kZ1H121rbl5IkMqeOsahptB9BKo/d7oJ3zTXqTgagn2bWlNSXkh0QUGM31RYg==}
     engines: {node: '>=18'}
 
-  netlify-cli@27.17.0:
-    resolution: {integrity: sha512-FitKTQiCJFdHAtdYrElwemloXYVgUmTxILdZMXVykToeeG5KTGMO4wObsqi9UGjf4D0W9V4VW+YTM0LoKc26Dg==}
+  netlify-cli@27.19.0:
+    resolution: {integrity: sha512-tsJuEmTWH1rbg7JSKYUwCfO4jQtd++VDVdH5HdOiZTteMPFWqWU2y/SHD3hFjxlHhdMWILST6eymwTY3HUCTOg==}
     engines: {node: '>=22.13.0'}
     hasBin: true
 
@@ -6464,6 +6467,8 @@ snapshots:
 
   json-schema-traverse@1.0.0: {}
 
+  jsonc-parser@3.3.1: {}
+
   jsonpointer@5.0.1: {}
 
   jsonwebtoken@9.0.3:
@@ -6690,7 +6695,7 @@ snapshots:
     dependencies:
       content-type: 2.1.0
 
-  netlify-cli@27.17.0(@types/node@26.6.6)(bare-buffer@3.7.1)(picomatch@4.0.7)(supports-color@11.0.0):
+  netlify-cli@27.19.0(@types/node@26.6.6)(bare-buffer@3.7.1)(picomatch@4.0.7)(supports-color@11.0.0):
     dependencies:
       '@fastify/static': 10.1.10
       '@inquirer/prompts': 8.8.0(@types/node@26.6.6)
@@ -6752,6 +6757,7 @@ snapshots:
       is-stream: 4.0.1
       is-wsl: 3.1.1
       isexe: 4.0.0
+      jsonc-parser: 3.3.1
       jsonwebtoken: 9.0.3
       jwt-decode: 4.0.0
       lambda-local: 2.2.0

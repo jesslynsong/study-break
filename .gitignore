@@ -12,3 +12,18 @@ work/
 *.zip
 .DS_Store
 Thumbs.db
+
+# Private exports, local keys and generated reports
+private/
+coverage/
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite*
+*.db
+study-break-backup*.json
+study-break-interest*.csv
+study-break-????-??-??T*.json
+study-break-????-??-??T*.csv
