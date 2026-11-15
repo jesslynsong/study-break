@@ -4,7 +4,7 @@
 
 A mobile-friendly event website that helps organisers estimate snack demand, check people in, and manage a shared supply of **150 bubble teas**.
 
-**[Live website](https://gilded-liger-22b522.netlify.app/) · [Try the volunteer practice desk](https://gilded-liger-22b522.netlify.app/#door) · [Security review](SECURITY.md)**
+**[Live website](https://gilded-liger-22b522.netlify.app/) · [Try the volunteer practice desk](https://gilded-liger-22b522.netlify.app/#door)**
 
 ## The problem
 
