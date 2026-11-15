@@ -1,0 +1,14 @@
+node_modules/
+test-results/
+*.tar.gz
+.env*
+.cache/
+.netlify/
+work/
+*.private.*
+
+# Local publishing metadata and backup archives
+.openai/
+*.zip
+.DS_Store
+Thumbs.db
